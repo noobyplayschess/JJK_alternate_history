@@ -4,7 +4,7 @@ tags: event
 is-card: true
 view-if: year = 2006 and month = 4
 new-page: true
-face-image: img/panzerkreuzer.jpg
+face-image: img/amanai.jpeg
 
 = An Escort Mission
   
