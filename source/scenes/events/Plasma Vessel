@@ -1,0 +1,11 @@
+title: Plasma Vessel
+subtitle: Plasma Vessel escort mission
+tags: event
+view-if: year = 2006 and month = 4
+new-page: true
+
+= Plasma Vessel
+buzzwords buzzwords
+
+- @decline: decline
+- @accept: accept
