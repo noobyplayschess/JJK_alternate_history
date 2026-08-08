@@ -5,6 +5,7 @@ is-card: true
 view-if: year = 2006 and month = 4
 new-page: true
 face-image: img/amanai.jpeg
+max-visits: 1
 
 = An Escort Mission
   
