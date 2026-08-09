@@ -189,11 +189,19 @@
       $('#qualities').append(dendryUI.contentToHTML.convert(displayContent));
   };
 
-  window.changeTab = function(newTab, tabId) {
+window.changeTab = function(newTab, tabId) {
       if (tabId == 'poll_tab' && dendryUI.dendryEngine.state.qualities.historical_mode) {
           window.alert('Polls are not available in historical mode.');
           return;
       }
+
+
+      if (tabId == 'clan_tab') {
+          window.changeTab('status.clans.gojo', 'gojo_sub_tab');
+          document.getElementById('clan_sub_tabs').style.display = 'block';
+          return;
+      }
+
       var tabButton = document.getElementById(tabId);
       var tabButtons = document.getElementsByClassName('tab_button');
       for (i = 0; i < tabButtons.length; i++) {
@@ -201,10 +209,11 @@
       }
       tabButton.className += ' active';
       window.statusTab = newTab;
-      window.updateSidebar();
-  };
 
-  window.onDisplayContent = function() {
+      var clanSubTabIds = ['gojo_sub_tab', 'zenin_sub_tab', 'kamo_sub_tab'];
+      var subTabs = document.getElementById('clan_sub_tabs');
+      subTabs.style.display = (clanSubTabIds.indexOf(tabId) !== -1) ? 'block' : 'none';
+
       window.updateSidebar();
   };
 
