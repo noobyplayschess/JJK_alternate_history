@@ -31,6 +31,11 @@ body.dark-mode {
   --card-border-color: #4c4c4c;
   --card-bg-color: #3f3f3f;
 }
+
+.sub_tab_container {
+    display: none;
+}
+
 body.dark-mode #content {
   border-style: double;
   border-width: 4px;
