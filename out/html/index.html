@@ -307,16 +307,21 @@
             </header>
             <div id="tools_wrapper">
                 <div id='stats_sidebar' class='tools left'>
-                    <div class="tab_container">
-                        <button class="tab_button active" id="main_tab" onclick="window.changeTab('status', 'main_tab');">Main</button>
-                        <button class="tab_button" id="politics_tab" onclick="window.changeTab('status.politics', 'politics_tab');">Politics</button>
-                        <button class="tab_button" id="paramilitary_tab" onclick="window.changeTab('status.paramilitaries', 'paramilitary_tab');">Defense</button>
-                        <button class="tab_button" id="clan_tab" onclick="window.changeTab('status.clans', 'clan_tab');">Clans</button>
-                        <button class="tab_button" id="poll_tab" onclick="window.changeTab('status.polls', 'poll_tab');">Polls</button>
-                    </div>
-                    <div id="qualities">
-                    </div>
+                <div class="tab_container">
+                    <button class="tab_button active" id="main_tab" onclick="window.changeTab('status', 'main_tab');">Main</button>
+                    <button class="tab_button" id="politics_tab" onclick="window.changeTab('status.politics', 'politics_tab');">Politics</button>
+                    <button class="tab_button" id="paramilitary_tab" onclick="window.changeTab('status.paramilitaries', 'paramilitary_tab');">Defense</button>
+                    <button class="tab_button" id="clan_tab" onclick="window.changeTab('status.clans', 'clan_tab');">Clans</button>
+                    <button class="tab_button" id="poll_tab" onclick="window.changeTab('status.polls', 'poll_tab');">Polls</button>
                 </div>
+                <div class="tab_container sub_tab_container" id="clan_sub_tabs">
+                    <button class="tab_button" id="gojo_sub_tab" onclick="window.changeTab('status.clans.gojo', 'gojo_sub_tab');">Gojo Clan</button>
+                    <button class="tab_button" id="zenin_sub_tab" onclick="window.changeTab('status.clans.zenin', 'zenin_sub_tab');">Zenin Clan</button>
+                    <button class="tab_button" id="kamo_sub_tab" onclick="window.changeTab('status.clans.kamo', 'kamo_sub_tab');">Kamo Clan</button>
+                </div>
+                <div id="qualities">
+                </div>
+              </div>
             </div>
 
             <div id='content'>
