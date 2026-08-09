@@ -37,11 +37,11 @@ Chancellor: [+ chancellor +] ([+ chancellor_party +])
 
 Reichstag composition:
 
-{!<span class="tooltip-text" title="Tokyo Jujutsu Highschool" style="color: #f4cbcc;">TJJH</span>!}: [+ tjjh_r +]%
+{!<span class="tooltip-text outlined-text" title="Tokyo Jujutsu Highschool" style="color: #f4cbcc;">TJJH</span>!}: [+ tjjh_r +]%
 
-{!<span class="tooltip-text" title="Kyoto Jujutsu Highschool" style="color: #c9d7f9;">KJJH</span>!}: [+ kjjh_r +]%
+{!<span class="tooltip-text outlined-text" title="Kyoto Jujutsu Highschool" style="color: #c9d7f9;">KJJH</span>!}: [+ kjjh_r +]%
 
-{!<span class="tooltip-text" title="Time Vessel Association" style="color: #a7d2f4;">TVA</span>!}: [+ tva_r +]%
+{!<span class="tooltip-text outlined-text" title="Time Vessel Association" style="color: #a7d2f4;">TVA</span>!}: [+ tva_r +]%
 
 Others: [+ other_r +]%
 
