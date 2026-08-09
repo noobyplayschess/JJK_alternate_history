@@ -9,7 +9,7 @@ new-page: true
 
 = An Escort Mission
   
-buzzword
+{!<span style="color: #a7d2f4;">Time Vessel Association</span>!}
   
 - @accept: word
 - @decline: buzz
