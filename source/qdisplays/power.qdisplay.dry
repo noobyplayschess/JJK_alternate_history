@@ -1,3 +1,8 @@
-# Clan powers
 
-  
+# clan strength/power
+
+(0..10) weak
+(10..25) moderate
+(25..40) strong
+(50..99.99) very strong
+(100..) dominant
