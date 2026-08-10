@@ -139,10 +139,30 @@ Prussian police loyalty: [+ prussian_police_loyalty : loyalty +]
 @clans.gojo
 
 = Gojo Clan
+Relation with Tokyo: [+ gojo_relation : relationships +]
+
+Relation with Kyoto: [+ gojo_relation_kyoto : relationships +]
+
+Political Power: [+ gojo_power : power +]
+
+@clans.zenin
 
 = Zenin Clan
+Relation with Tokyo: [+ zenin_relation : relationships +]
+
+Relation with Kyoto: [+ zenin_relation_kyoto : relationships +]
+
+Political Power: [+ zenin_power : power +]
+
+
+@clans.kamo
 
 = Kamo Clan
+Relation with Tokyo: [+ kamo_relation : relationships +]
+
+Relation with Kyoto: [+ kamo_relation_kyoto : relationships +]
+
+Political Power: [+ kamo_power : power +]
 
 
 @polls
