@@ -1,8 +1,8 @@
 
 # clan strength/power
 
-(0..19.99) weak
-(20..49.99) moderate
-(50..79.99) strong
-(80..99.99) very strong
-(100..) dominant
+(0..19.99) <span style"color: #ff0000;">weak</span>
+(20..49.99) <span style"color: #ffff00;">moderate</span>
+(50..79.99) <span style"color: ;#00ff00">strong</span>
+(80..99.99) <span style"color: #00ffff;">very strong</span>
+(100..) <span style"color: #0000ff;">dominant</span>
