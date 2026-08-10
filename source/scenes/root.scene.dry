@@ -99,9 +99,22 @@ Q.moderate_plan_support = 0;
 Q.moderate_plan_adopted = 0;
 
 // organizations
+
 // clan relation
-Q.gojo_relation = 50;
-Q.gojo_relation_kyoto = 90;
+
+Q.gojo_relation = 90;
+Q.gojo_relation_kyoto = 60;
+Q.gojo_power = 120;
+
+Q.zenin_relation = 0;
+Q.zenin_relation_kyoto = 90;
+Q.zenin_power = 75;
+
+Q.zenin_relation = 0;
+Q.zenin_relation_kyoto = 90;
+Q.zenin_power = 48;
+
+
 // inter-party relations
 Q.z_relation = 50;
 Q.kpd_relation = 25;
