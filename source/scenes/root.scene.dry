@@ -110,9 +110,9 @@ Q.zenin_relation = 0;
 Q.zenin_relation_kyoto = 90;
 Q.zenin_power = 75;
 
-Q.zenin_relation = 0;
-Q.zenin_relation_kyoto = 90;
-Q.zenin_power = 48;
+Q.kamo_relation = 0;
+Q.kamo_relation_kyoto = 90;
+Q.kamo_power = 48;
 
 
 // inter-party relations
