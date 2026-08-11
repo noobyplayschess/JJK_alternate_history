@@ -202,13 +202,6 @@ window.changeTab = function(newTab, tabId) {
           return;
       }
 
-
-      if (tabId == 'main_tab') {
-          window.changeTab('status.main.status', 'status_sub_tab');
-          document.getElementById('main_sub_tabs').style.display = 'block';
-          return;
-      }
-  
       var tabButton = document.getElementById(tabId);
       var tabButtons = document.getElementsByClassName('tab_button');
       for (i = 0; i < tabButtons.length; i++) {
@@ -221,11 +214,7 @@ window.changeTab = function(newTab, tabId) {
       var clansubTabs = document.getElementById('clan_sub_tabs');
       clansubTabs.style.display = (clanSubTabIds.indexOf(tabId) !== -1) ? 'block' : 'none';
 
-      var mainSubTabIds = ['status_sub_tab', 'government_sub_tab', 'specialgrades_sub_tab'];
-      var mainsubTabs = document.getElementById('main_sub_tabs');
-      mainsubTabs.style.display = (mainSubTabIds.indexOf(tabId) !== -1) ? 'block' : 'none';
-  
-  
+    
       window.updateSidebar();
   };
 
