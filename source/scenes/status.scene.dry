@@ -1,5 +1,3 @@
-@main.status
-
 title: Status
 new-page: true
 is-special: true
@@ -31,8 +29,6 @@ SPD position: [? if spd_toleration : toleration ?][? if spd_in_government : in g
 
 Internal dissent: [+ dissent_percent : dissent +]
 
-@main.government
-
 = Government
 
 President: [+ president +]
@@ -52,8 +48,6 @@ Others: [+ other_r +]%
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
 
 Next election: [+ next_election_month : month +] [+ next_election_year +]
-
-@main.specialgrades
 
 = Economics
 
