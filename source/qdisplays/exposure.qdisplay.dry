@@ -1,8 +1,8 @@
 
 # levels of information leaks
 
-(1) concealed
-(2) recovering
-(3) leaked
-(4) exposed
-(5) completely exposed
+(1..1) concealed
+(2..2) recovering
+(3..3) leaked
+(4..4) exposed
+(5..5) completely exposed
