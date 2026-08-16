@@ -242,8 +242,8 @@ Q.unemployed_qol = 100;
 Q.old_middle_qol = 100;
 Q.new_middle_qol = 100;
 
-Q.classes = ['workers', 'old_middle', 'new_middle', 'rural', 'unemployed', 'catholics'];
-Q.parties = ['spd', 'kpd', 'z', 'ddp', 'dvp', 'dnvp', 'nsdap', 'other'];
+Q.classes = ['sorcerers'];
+Q.parties = ['tjjh','kjjh'];
 
 // TODO: add 'sapd' later on
 Q.sapd_formed = 0;
@@ -305,16 +305,9 @@ Q.catholics_nsdap = 0;
 Q.catholics_other = 12;
 
 
-// Current Reichstag composition
-// % of Reichstag in Jan 1928
-// source: wikipedia
-// note: the Z figures also include the BVP (Bavarian people's party)
-// since they were ideologically similar, but they were separate parties.
-// They did not have a CDU/CSU-style relationship.
-Q.tjjh_r = 40;
+// Current Jujutsu Society Composition
+Q.tjjh_r = 50;
 Q.kjjh_r = 50;
-Q.tva_r = 10;
-Q.other_r = 0;
 
 // diff from prev
 Q.old_spd_r = 26;
@@ -598,7 +591,7 @@ This is a game of alternate history. While historical accuracy is a major concer
 
 For more information on the politics and government of the German Republic, see the "Library" page on the top left. If this is your first time playing the game, it is strongly recommended that you read at least some of this information.
 
-- @1928_easy: Begin (easy difficulty)
+- @1928_easy: Begin (jujutsu mode)
 - @1928_main: Begin (normal difficulty)
 - @1928_hard: Begin (hard difficulty)
 - @1928_historical: Begin (historical mode)

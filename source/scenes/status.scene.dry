@@ -41,10 +41,6 @@ Reichstag composition:
 
 {!<span class="tooltip-text" title="Kyoto Jujutsu Highschool" style="color: #c9d7f9; style="outline:thin solid black;">KJJH</span>!}: [+ kjjh_r +]%
 
-{!<span class="tooltip-text" title="Time Vessel Association" style="color: #a7d2f4; style="outline:thin solid black;">TVA</span>!}: [+ tva_r +]%
-
-Others: [+ other_r +]%
-
 [? if spd_in_government = 1 : Budget: [+ budget +] ?]
 
 Next election: [+ next_election_month : month +] [+ next_election_year +]
@@ -212,3 +208,7 @@ Unemployed: SPD: [+ unemployed_spd_display +]%, Z: [+ unemployed_z_display +]%, 
 Catholics: SPD: [+ catholics_spd_display +]%, Z: [+ catholics_z_display +]%, KPD: [+ catholics_kpd_display +]%, [? if not ddp_name: DDP?][? if ddp_name != 0 : [+ ddp_name +]?]: [+ catholics_ddp_display +]%, DVP: [+ catholics_dvp_display +]%; DNVP: [+ catholics_dnvp_display +]%, NSDAP: [+ catholics_nsdap_display +]%, Others: [+ catholics_other_display +]% [? if sapd_formed: SAPD: [+ catholics_sapd_display +]% ?]
 
 Support for the Republic: [+ pro_republic_disp +]%
+
+@intelligence
+
+enriqueeee
